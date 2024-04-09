@@ -1,6 +1,11 @@
-<div class="flex flex-col items-center " >
-  <section class="w-1/2" >
-    <p class=" p-6 text-blue-700 font-medium text-xl">
+<div class="flex flex-col items-center" >
+  <section  >
+      <div class="flex flex-row justify-evenly items-center">
+        <p class="bg-blue-400 w-[33.3%] h-1"></p>
+        <h1 class="w-[33.3%] text-center text-blue-400"> Sobre mi</h1>
+        <p class=" bg-blue-400 w-[33.3%] h-1"></p>
+      </div>
+      <p class=" md: p-6 text-blue-400 font-medium text-xl">
       Soy Eduardo, un apasionado estudiante de desarrollo web y
       ciberseguridad, inmerso en un bootcamp donde estoy adquiriendo habilidades
       tanto en el frontend como en el backend. Aunque empecé sin conocimientos
@@ -14,39 +19,80 @@
       fundamentales en mi camino de aprendizaje.
     </p>
   </section>
-  <section class="w-1/2" >
-    <div class="flex flex-row gap-6" >
-      <div>
-        <h3>frontend</h3>
-        <div class="grid grid-cols-3 gap-8">
-          <div class="flex flex-col items-center gap-3 bg-blue-600 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+  <section class="w-full">
+    <div class="flex flex-row justify-evenly items-center">
+      <p class="bg-blue-400 w-[33.3%] h-1"></p>
+      <h1 class="w-[33.3%] text-center text-blue-400">Tecnologías</h1>
+      <p class=" bg-blue-400 w-[33.3%] h-1"></p>
+    </div>
+    
+    <div class="flex flex-row mt-12 justify-evenly" >
+      <div class="flex flex-col items-center">
+        <h3 class="bg-blue-400 text-white p-1 rounded-xl text-center ">frontend</h3>
+        <div class="grid grid-cols-3 gap-8 mt-6">
+          <div class="flex flex-col items-center gap-3 bg-blue-400  p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
             <img src="../../../assets/images/stacks/reactIcon.png" alt="">
             <p>React</p>
           </div>
-          <div  class="flex flex-col items-center gap-3 bg-blue-600 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+          <div  class="flex flex-col items-center gap-3 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
             <img src="../../../assets/images/stacks/angular2Icon.png" alt="">
             <p>Angular</p>
           </div>
-          <div class="flex flex-col items-center gap-3 bg-blue-600 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+          <div class="flex flex-col items-center gap-3 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
             <img src="../../../assets/images/stacks/cssIcon.png" alt="">
             <p>Css</p> 
           </div>
-          <div  class="flex flex-col items-center gap-3 bg-blue-600 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+          <div  class="flex flex-col items-center gap-3 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
             <img src="../../../assets/images/stacks/htmlIcon.png" alt="">
             <p>HTML</p>
           </div>  
-          <div  class="flex flex-col items-center gap-3 bg-blue-600 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+          <div  class="flex flex-col items-center gap-3 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
             <img src="../../../assets/images/stacks/javaScriptIcon.png" alt="">
-            <p>javaScrpt</p>
+            <p>javaScript</p>
           </div>  
         </div>  
       </div>
-      <div>
-        <h3>backend</h3>
-        <div class="grid grid-cols-2">
-          <img src="../../../assets/images/stacks/mysqlIcon.png" alt="">
-          <img src="../../../assets/images/stacks/nodeIcon.png" alt="" >
+      <div class="flex flex-col items-center">
+        <h3 class="bg-blue-400 text-white p-1 rounded-xl text-center">backend</h3>
+        <div class="grid grid-cols-2 gap-8 mt-6">
+          <div class="flex flex-col items-center gap-3 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+            <img src="../../../assets/images/stacks/mysqlIcon.png" alt="">
+            <p>My sql</p>
+          </div>
+          <div class="flex flex-col items-center gap-3 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+            <img class="w-16" src="../../../assets/images/stacks/mongo.png" alt="">
+            <p>Mongo db</p>
+          </div>
+          <div class="flex flex-col items-center gap-3 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+            <img src="../../../assets/images/stacks/nodeIcon.png" alt="" >
+            <p>Node</p>
+          </div>
         </div>  
+      </div>
+      <div>
+        <h3 class="bg-blue-400 text-white p-1 rounded-xl text-center">Otras Tecnologías</h3>
+        <div class="grid grid-cols-3 gap-8 mt-10 ">
+          <div class="flex flex-col items-center gap-6 bg-blue-400  p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+            <img class="w-16" src="../../../assets/images/stacks/github.png" alt="">
+            <p>gitHub</p>
+          </div>
+          <div  class="flex flex-col items-center gap-6 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+            <img class="w-16" src="../../../assets/images/stacks/jwt.png" alt="">
+            <p>Jwt</p>
+          </div>
+          <div class="flex flex-col items-center gap-3 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+            <img class="w-16" src="../../../assets/images/stacks/kali.png" alt="">
+            <p>Kali linux</p> 
+          </div>
+          <div  class="flex flex-col items-center gap-10 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+            <img class="w-16" src="../../../assets/images/stacks/trello.png" alt="">
+            <p>Trello</p>
+          </div>  
+          <div  class="flex flex-col items-center gap-3 bg-blue-400 p-4 text-white font-semibold text-base rounded-xl hover:scale-125 duration-300">
+            <img class="w-16" src="../../../assets/images/stacks/figma.png" alt="">
+            <p>Figma</p>
+          </div>  
+        </div>       
       </div>
     </div>
     <div>
