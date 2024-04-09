@@ -1,0 +1,45 @@
+[
+ {
+  "id": "001",
+  "nombre": "proyecto VII - Ecommerce en React",
+  "url": "https://github.com/eduardof5sg/react-lotocare",
+  "deploy": "https://react-lotocare-6650v6fnd-eduardof5sgs-projects.vercel.app/",
+  "img": "assets/images/proyectos/proyecto7.png",
+  "lenguajes": "react, javascript", 
+  "info": "Este es un proyecto llevado de html y css a react"
+   
+ },
+ {
+  "id": "002",
+  "nombre": "Proyecto VI - Consumo API con react",
+  "url": "https://github.com/eduardof5sg/react-api",
+  "deploy": "https://eduardof5sg.github.io/react-api/",
+  "lenguajes": "react, javascript",
+  "info": "En este proyecto elaboramos una pagina web que ayuda a consumir una api de las cuales mostramos la informacion solicitada"
+ },
+ {
+  "id": "003",
+  "nombre": "Proyecto V - ShoppingCart",
+  "img": "https://github.com/DavidCabrerizo/Ejercicio5-Shopping-cart",
+  "deploy": "https://davidcabrerizo.github.io/Ejercicio5-Shopping-cart/",
+  "lenguajes": "javascript, html, css",
+  "info": " en este proyecto hicimos que desde una api publica podamos añadir productos a la cesta"
+ },
+ {
+  "id": "004",
+  "nombre": "Proyecto IV - Consumira una api con fetch",
+  "img": "https://github.com/eduardof5sg/consultas",
+  "deploy": "https://consultaeuropa.netlify.app/" ,
+  "lenguajes": "javascript, html, css",
+  "info": "Nutre tus manos y embellece tus uñas con nuestra Crema Reparadora de Manos y Uñas. La fórmula enriquecida con manteca de karité y aceite de argán restaura la suavidad de tus manos mientras fortalece y acondiciona tus uñas."
+ },
+ {
+  "id": "005",
+  "nombre": "Proyecto I - LandingPage",
+  "url": "https://github.com/eduardof5sg/landing_page",
+  "lenguajes": "html, css",
+  "deploy": "0",
+  "info": " Maquetacion sobre una langinpage"
+ }
+]
+ 
