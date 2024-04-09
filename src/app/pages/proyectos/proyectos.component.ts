@@ -12,7 +12,8 @@ export class ProyectosComponent implements OnInit {
 
   data: any;
   modalAbierto: boolean = false;
-  modalItem: any; // Variable para almacenar el elemento seleccionado del JSON
+  modalItem: any; 
+  proyectos :any[] = [];
 
   constructor() { }
 
@@ -24,8 +25,7 @@ export class ProyectosComponent implements OnInit {
   getData() {
     fetch('assets/data/proyectos.json')
       .then(response => response.json())
-      .then(data => {
-        console.log(data); // Muestra el JSON en la consola
+      .then(data => {// Muestra el JSON en la consola
         this.data = data; // Asigna los datos a la propiedad "data"
       })
       .catch(error => {
@@ -43,6 +43,14 @@ export class ProyectosComponent implements OnInit {
   cerrarModal() {
     this.modalAbierto = false;
     this.modalItem = null; // Limpiar el elemento seleccionado cuando se cierra el modal
+  }
+
+  redirectGithub(url: string){
+    window.location.href = url;
+  }
+
+  redirectDeploy(url: string){
+    window.location.href = url;
   }
 }
 
