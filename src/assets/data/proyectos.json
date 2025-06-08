@@ -1,7 +1,26 @@
-[
+[ {
+       "id": "001",
+       "nombre": "proyecto FindUrMeal",
+       "url": "https://github.com/eduardof5sg/findyourMeal",
+       "deploy": "https://findurmeal.netlify.app/",
+       "img": "assets/images/proyectos/find.jpg",
+       "lenguajes": "Node.js, mongoDb, jwt, Firebase, SvelteKit, TailwindCss", 
+       "info": "Proyecto que recopila a Bares por su codigo Postal, Muestra la carta digital de un bar seleccionado"
+        
+      },
+       {
+       "id": "002",
+       "nombre": "proyecto BarberMap",
+       "url": "https://github.com/devSinergy/barberMap-client",
+       "deploy": "https://barbermap.netlify.app/barbershops?codigoPostal=28019",
+       "img": "assets/images/proyectos/barber.jpg",
+       "lenguajes": "Node.js, mongoDb, jwt, Firebase, SvelteKit, TailwindCss", 
+       "info": "Proyecto que recopila a las barberias por su codigo Postal, Puedes gestionar reservas de citas, previo registro"
+        
+      },
 
     {
-        "id": "001",
+        "id": "003",
         "nombre": "proyecto IX - Proyecto Full Stack",
         "url": "https://github.com/ScouzPro/Scoutify",
         "deploy": "0",
@@ -11,7 +30,7 @@
          
        },
 {
-       "id": "002",
+       "id": "004",
        "nombre": "proyecto VIII - Crud",
         "url": "https://github.com/eduardof5sg/vueBlog",
         "deploy": "https://angularbloog.netlify.app/",
@@ -19,52 +38,7 @@
         "lenguajes": "Angular,NodeJs, javaScript, TypeScript", 
         "info": "Este es un proyecto llevado de html y css a react"
          
- },
- {
-  "id": "003",
-  "nombre": "proyecto VII - Ecommerce en React",
-  "url": "https://github.com/eduardof5sg/react-lotocare",
-  "deploy": "https://react-lotocare-6650v6fnd-eduardof5sgs-projects.vercel.app/",
-  "img": "assets/images/proyectos/proyecto7.png",
-  "lenguajes": "react, javascript", 
-  "info": "Este es un proyecto llevado de html y css a react"
-   
- },
- {
-  "id": "004",
-  "nombre": "Proyecto VI - Consumo API con react",
-  "url": "https://github.com/eduardof5sg/react-api",
-  "deploy": "https://eduardof5sg.github.io/react-api/",
-  "img": "assets/images/proyectos/proyecto6.png",  
-  "lenguajes": "react, javascript",
-  "info": "En este proyecto elaboramos una pagina web que ayuda a consumir una api de las cuales mostramos la informacion solicitada"
- },
- {
-  "id": "005",
-  "nombre": "Proyecto V - ShoppingCart",
-  "url": "https://github.com/DavidCabrerizo/Ejercicio5-Shopping-cart",
-  "deploy": "https://davidcabrerizo.github.io/Ejercicio5-Shopping-cart/",
-  "img": "assets/images/proyectos/proyecto5.png", 
-  "lenguajes": "javascript, html, css",
-  "info": " en este proyecto hicimos que desde una api publica podamos añadir productos a la cesta"
- },
- {
-  "id": "006",
-  "nombre": "Proyecto IV - Consumir  una api con fetch",
-  "url": "https://github.com/eduardof5sg/consultas",
-  "deploy": "https://consultaeuropa.netlify.app/" ,
-  "img": "assets/images/proyectos/proyecto4.png",
-  "lenguajes": "javascript, html, css",
-  "info": "Nutre tus manos y embellece tus uñas con nuestra Crema Reparadora de Manos y Uñas. La fórmula enriquecida con manteca de karité y aceite de argán restaura la suavidad de tus manos mientras fortalece y acondiciona tus uñas."
- },
- {
-  "id": "007",
-  "nombre": "Proyecto I - LandingPage",
-  "url": "https://github.com/eduardof5sg/landing_page",
-  "img": "assets/images/proyectos/proyecto1.png",
-  "lenguajes": "html, css",
-  "deploy": "0",
-  "info": " Maquetacion sobre una landinpage"
  }
+ 
 ]
  

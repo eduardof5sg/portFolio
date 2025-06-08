@@ -49,8 +49,12 @@ export class ProyectosComponent implements OnInit {
     window.location.href = url;
   }
 
-  redirectDeploy(url: string){
-    window.location.href = url;
+  redirectDeploy(url: string): void {
+    if (url && url !== "0") {
+      window.open(url, '_blank'); // Abre en nueva pestaña
+    } else {
+      alert("Este proyecto no tiene deploy disponible.");
+    }
   }
 }
 
