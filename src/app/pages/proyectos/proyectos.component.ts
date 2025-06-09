@@ -33,21 +33,7 @@ export class ProyectosComponent implements OnInit {
       });
   }
 
-  abrirModal(item?: any) {
-    if (item) {
-      this.modalItem = item; // Establecer el elemento seleccionado para mostrar en el modal
-    }
-    this.modalAbierto = true;
-  }
-
-  cerrarModal() {
-    this.modalAbierto = false;
-    this.modalItem = null; // Limpiar el elemento seleccionado cuando se cierra el modal
-  }
-
-  redirectGithub(url: string){
-    window.location.href = url;
-  }
+ 
 
   redirectDeploy(url: string): void {
     if (url && url !== "0") {
@@ -55,6 +41,19 @@ export class ProyectosComponent implements OnInit {
     } else {
       alert("Este proyecto no tiene deploy disponible.");
     }
+  }
+
+  mostrar: boolean = false;
+  itemSeleccionado: any = null;
+
+  abrirModal1(item: any): void {
+    this.itemSeleccionado = item;
+    this.mostrar = true;
+  }
+
+  cerrarModal1(): void {
+    this.mostrar = false;
+    this.itemSeleccionado = null;
   }
 }
 

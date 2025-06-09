@@ -5,20 +5,27 @@
     <p class=" bg-green-600/75 w-[33.3%] h-1"></p>
   </div>
   <div class="flex flex-col gap-3 mt-6  shadow-xl text-center">
-    <div *ngFor="let item of data" class="mb-4 mx-4 bg-blue-500  rounded-xl opacity-80 hover:scale-110 duration-300">      
+    <div *ngFor="let item of data" class="mb-4 mx-4 bg-white rounded-xl opacity-80 hover:scale-110 duration-300">      
       <ul class="flex flex-col gap-6 items-center mb-3 ">
         <div>
          <img class="w-[40vh] rounded-xl max-h-[60vh]  " [src]="item.img" alt="imagen">
         </div> 
         <div>
-         <li class="text-white font-medium">{{item.nombre}}</li> 
-         <div class="text-white flex flex-row justify-around mt-12 gap-6">
-          <button  class="bg-white p-1 w-24 rounded-xl text-blue-400 hover:bg-green-600/75 hover:text-white hover:scale-105 duration-300" (click)="redirectGithub(item.url)">Github</button>
-          <button  class="bg-white p-1 w-24 rounded-xl text-blue-400  hover:bg-green-600/75 hover:text-white hover:scale-105 duration-300"  (click)="redirectDeploy(item.deploy)">visitar Web</button>
+         <li class="text-blue-600 font-medium">{{item.nombre}}</li> 
+         <div class="text-white flex flex-row justify-around mt-4 gap-6">
+          <button  class="bg-white p-1 w-24 rounded-xl text-blue-400 hover:bg-green-600/75 hover:text-white hover:scale-105 duration-300 shadow-md border-2 border-blue-400"  (click)="abrirModal1(item)">Detalles</button>
+          <button  class="bg-white p-1 w-24 rounded-xl text-blue-400  hover:bg-green-600/75 hover:text-white hover:scale-105 duration-300 shadow-md border-blue-400 border-2"  (click)="redirectDeploy(item.deploy)">visitar Web</button>
           
          </div>
         </div>
       </ul>
     </div> 
+    <div *ngIf="mostrar" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div class="bg-white p-6 rounded-xl shadow-lg max-w-lg w-full text-gray-800 relative">
+        <button class="absolute top-2 right-3 text-red-500 text-xl font-bold" (click)="cerrarModal1()">×</button>
+        <h2 class="text-xl font-semibold mb-4">Informacion del proyecto</h2>
+        <p>{{ itemSeleccionado?.info }}</p>
+      </div>
+    </div>
   </div>
 </div>

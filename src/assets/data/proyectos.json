@@ -1,26 +1,40 @@
-[ {
-       "id": "001",
+[
+       {
+              "id": "001",
+              "nombre": "proyecto FindUrMeal",
+              "deploy": "https://versumoda.netlify.app/",
+              "img": "assets/images/proyectos/versus.jpg",
+              "lenguajes": "Node.js, mongoDb, jwt, Firebase, SvelteKit, TailwindCss", 
+              "info": "Proyecto VersuModa en ejecución, una boutique ubicada en el barrio de Carabanchel. Esta plataforma ha sido creada con el propósito de brindar a los clientes una experiencia accesible y atractiva para explorar el catálogo actual, descubrir nuevas colecciones y aprovechar las rebajas. VersuModa busca fortalecer la presencia digital de la boutique, facilitando la conexión directa con sus clientes y promoviendo sus productos de manera dinámica y actualizada."
+
+       
+               
+             },
+       {
+       "id": "002",
        "nombre": "proyecto FindUrMeal",
        "url": "https://github.com/eduardof5sg/findyourMeal",
-       "deploy": "https://findurmeal.netlify.app/",
+       "deploy": "https://findurmeal.netlify.app/bares/67b85b97c99ea50970a10951",
        "img": "assets/images/proyectos/find.jpg",
        "lenguajes": "Node.js, mongoDb, jwt, Firebase, SvelteKit, TailwindCss", 
-       "info": "Proyecto que recopila a Bares por su codigo Postal, Muestra la carta digital de un bar seleccionado"
+       "info": "Plataforma web diseñada para localizar y organizar bares por código postal, ofreciendo una experiencia clara y visualmente atractiva. Permite a los usuarios explorar la carta digital y el menú de cada establecimiento de forma detallada, intuitiva y adaptada completamente a dispositivos móviles. El sistema está desarrollado con SvelteKit, cuenta con una base de datos estructurada en mongoDb, almacenamiento de recursos multimedia en Firebase Storage y un servidor optimizado para ofrecer rendimiento y escalabilidad. Ideal para clientes que desean consultar fácilmente la oferta gastronómica local y para negocios que buscan mayor visibilidad digital."
+
         
       },
        {
-       "id": "002",
+       "id": "003",
        "nombre": "proyecto BarberMap",
        "url": "https://github.com/devSinergy/barberMap-client",
        "deploy": "https://barbermap.netlify.app/barbershops?codigoPostal=28019",
        "img": "assets/images/proyectos/barber.jpg",
        "lenguajes": "Node.js, mongoDb, jwt, Firebase, SvelteKit, TailwindCss", 
-       "info": "Proyecto que recopila a las barberias por su codigo Postal, Puedes gestionar reservas de citas, previo registro"
+       "info": "Plataforma web especializada en la gestión de citas para barberías y peluquerías locales, que requiere registro previo para garantizar reservas reales y evitar citas ficticias. Ofrece información detallada del establecimiento, incluyendo ubicación, lista de servicios con precios y galerías de imágenes, facilitando una experiencia completa y confiable para los usuarios."
+
         
       },
 
     {
-        "id": "003",
+        "id": "004",
         "nombre": "proyecto IX - Proyecto Full Stack",
         "url": "https://github.com/ScouzPro/Scoutify",
         "deploy": "0",
